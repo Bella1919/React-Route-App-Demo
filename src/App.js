@@ -15,6 +15,7 @@ class App extends Component {
       <div>
         <NavBar />
         <div className="content">
+          {/* path means URL address */}
           <Switch>
             {/* Route to tell react what component should be render bass on URL */}
             {/* For Route always put the spcific one on top of the normal one */}
