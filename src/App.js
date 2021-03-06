@@ -16,6 +16,7 @@ class App extends Component {
         <NavBar />
         <div className="content">
           {/* path means URL address */}
+          {/* switch to solute the problem when URL meet "/" will change to Home direactly promble. */}
           <Switch>
             {/* Route to tell react what component should be render bass on URL */}
             {/* For Route always put the spcific one on top of the normal one */}
